@@ -9,7 +9,7 @@ const data = {
     intro: 'Focused on building products that people love to use. I love to learn new things and share my knowledge with others. I teach others by creating content!',
     about: 'Im a software developer building cool products and teaching others by creating content and giving talks that revolves around many areas in tech.',
     // I’m a 15 y/o full-stack web3 developer building cool products and teaching others by creating content that revolves around many areas in web3.',
-    // website: 'https://www.avneesh.tech',
+    website: 'https://www.mitchelinaju.vercel.app',
     projects: [
         {
             name: 'Grazac Academy',

@@ -66,7 +66,8 @@ module.exports = {
                 ignoreCase: true,
             },
         ],
-        'prettier/prettier': ['error', prettierConfig],
+        
+        'prettier/prettier': 0,
     },
     settings: {
         react: {

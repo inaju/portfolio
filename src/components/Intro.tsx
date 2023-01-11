@@ -2,7 +2,7 @@ import data from '@/data';
 import { motion } from 'framer-motion';
 import React from 'react';
 import { Link } from 'react-scroll';
-import hero from "../assets/hero.png"
+import hero from '../assets/hero.png'
 import Image from 'next/image';
 export const Intro = () => {
     return (
@@ -16,7 +16,7 @@ export const Intro = () => {
             initial={{ y: 40 }}
             transition={{ duration: 0.5 }}
         >
-            <p className="text-3xl text-neon font-fira">I'm</p>
+            <p className="text-3xl text-neon font-fira">I&lsquo;m</p>
             <h1 className="text-5xl font-extrabold text-text md:text-8xl">
                 {data.name}
             </h1>
@@ -65,7 +65,7 @@ export const Intro = () => {
             initial={{ y: 40 }}
             transition={{ duration: 0.5 }}
             >
-            <Image alt="heroimage" src={hero} className="w-fit h-[35rem] pr-20 hidden sm:block"/>
+            <Image alt="heroimage"  className="w-fit h-[35rem] pr-20 hidden sm:block" src={hero}/>
         </motion.div>
         </div>
     );

@@ -1,4 +1,4 @@
-import Logo from '../../Icons/Logo';
+// import Logo from '../../Icons/Logo';
 import NavOption from './NavOption';
 import navOptions from './navOptions';
 import { useEffect, useState } from 'react';
